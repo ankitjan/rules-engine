@@ -93,6 +93,26 @@ The application automatically creates the following tables:
 - Structured logging with correlation IDs
 - Database connection monitoring
 
+## Documentation
+
+### Specifications
+
+Comprehensive project specifications are available in the `specs/` directory:
+
+- **[Requirements](specs/requirements.md)** - Complete requirements document with 30 requirements covering core functionality through enterprise features
+- **[Design](specs/design.md)** - Architecture, components, data models, and correctness properties
+- **[Implementation Tasks](specs/tasks.md)** - 36-task implementation plan with incremental development approach
+- **[Requirements Enhancement Summary](specs/requirements-enhancement-summary.md)** - Overview of enterprise features added (Requirements 22-30)
+- **[Design & Tasks Update Summary](specs/design-tasks-update-summary.md)** - Summary of design and task updates for enhanced requirements
+
+### Key Features Covered in Specifications
+
+- **Core APIs**: Rule management, folder organization, field configuration
+- **Rule Execution**: Dynamic field resolution, calculated fields, entity filtering
+- **Enterprise Features**: Multi-tenancy, collaboration workflows, analytics
+- **Integration**: External systems, webhooks, message queues
+- **Advanced Capabilities**: Rule templates, versioning, testing framework
+
 ## Development
 
 ### Project Structure
